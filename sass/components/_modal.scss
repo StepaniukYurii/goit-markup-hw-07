@@ -136,6 +136,8 @@
     }
 }
 .modal__sending {
+    gap: 4px;
+    align-items: center;
     line-height: 1.71;
     text-align: center;
     justify-content: center;
@@ -153,8 +155,6 @@
 }
 
 .modal__icon-check {
-    margin-top: 4px;
-    margin-right: 8px;
     display: inline-block;
     width: 16px;
     height: 15px;
@@ -171,7 +171,6 @@
 
 .modal__link {
     color: $accent-color;
-    margin-left: 4px;
     text-decoration-line: underline;
 }
 
